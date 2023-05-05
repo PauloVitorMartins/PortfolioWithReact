@@ -3,6 +3,10 @@ import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import netflix from '../images/netflix.png';
 import rpgFantasy from '../images/site.png';
+import trybewarts from '../images/Trybewarts.png';
+import guessTheColor from '../images/guessTheColor.png';
+import paletaDeCores from '../images/paletaDeCores.png';
+import toDo from '../images/toDo.png';
 import SlideImage from './slideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/home.css';
@@ -32,13 +36,15 @@ export default function Home () {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-      <SlideImage text='netflixClone' image={netflix} />
+      <SlideImage text='NetflixClone' image={netflix} />
       </SwiperSlide>
       <SwiperSlide>
-        <SlideImage text='rpgFantasy' image={rpgFantasy} />
+        <SlideImage text='Rpg Fantasy' image={rpgFantasy} />
       </SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide><SlideImage text='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
+      <SwiperSlide><SlideImage text='Trybewarts' image={trybewarts} /></SwiperSlide>
+      <SwiperSlide><SlideImage text='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
+      <SwiperSlide><SlideImage text='To Do List' image={toDo} /></SwiperSlide>
       ...
     </Swiper>
     </div>
