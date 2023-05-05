@@ -11,10 +11,10 @@ export default function Home () {
     <div className='everything-h'>
       <a className='pv-icon'><img src={ pvIcon }/></a>
       <div className='buttons-nav'>
-        <a target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='navBar-button'><img src={ linkedinIcon }/></a>
-        <a target='_blank' href='https://github.com/PauloVitorMartins' className='navBar-button'><img src={ gitHubIcon }/></a>
-        <a target='_blank' href='' className='navBar-button'><img src={ emailIcon }/></a>
-        <a target='_blank' href='https://wa.me/5531983114110' className='navBar-button'><img src={ zapIcon }/></a>
+        <a target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='navBar-button'><img className='navImage' src={ linkedinIcon }/></a>
+        <a target='_blank' href='https://github.com/PauloVitorMartins' className='navBar-button'><img className='navImage' src={ gitHubIcon }/></a>
+        <a target='_blank' href='' className='navBar-button'><img className='navImage' src={ emailIcon }/></a>
+        <a target='_blank' href='https://wa.me/5531983114110' className='navBar-button'><img className='navImage' src={ zapIcon }/></a>
       </div>
     </div>
   )
