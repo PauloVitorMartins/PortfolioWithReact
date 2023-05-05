@@ -1,0 +1,51 @@
+@font-face {
+    font-family: fa;
+    src: url('../fonts/ostrich-regular.ttf');
+}
+
+@font-face {
+  font-family: cherry;
+  src: url('../fonts/Cherry\ Monospace-Light.ttf');
+}
+
+body {
+  background-color: #181a1e;
+}
+
+.main-content {
+  margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.focus-title {
+  text-align: center;
+  color: white;
+  font-size: 147px;
+  font-family: fa;
+}
+
+.title-slide {
+  text-align: center;
+  color: white;
+}
+
+.second-focus-title {
+    text-align: center;
+    color: white;
+    margin-top: -6%;
+    font-size: 50px;
+    font-family: cherry; 
+}
+
+.imagesSites {
+ width: 60%;
+ margin-left: 20%;
+}
+
+.chamada {
+  margin-left: 5%;
+  color: white;
+  font-size: 40px;
+  font-family: fa; 
+}

@@ -1,0 +1,22 @@
+.everything-h {
+  background-color: #4e727d;
+  margin-top: 0;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navBar-button {
+  margin-right: 25px;
+}
+
+.pv-icon {
+  margin-left: 2%;
+  position: initial;
+}
+
+.buttons-nav {
+  width: 22%;
+  margin-left: 72%;
+}
