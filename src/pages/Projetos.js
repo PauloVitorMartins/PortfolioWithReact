@@ -4,6 +4,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import SlideImage from '../components/slideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/projetos.css';
+// importação dos textos
+import { textNetflix, textRPG, textPaletaDeCores, textTrybewarts, textGuessColor, textToDo } from '../texts';
 //swiper
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -41,15 +43,15 @@ export default function Projetos () {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-      <SlideImage text='NetflixClone' image={netflix} imageTwo={netflixGif}/>
+      <SlideImage text={ textNetflix } title='NetflixClone' image={netflix} imageTwo={netflixGif}/>
       </SwiperSlide>
       <SwiperSlide>
-        <SlideImage text='Rpg Fantasy' image={rpgFantasy} imageTwo={rpgGif}/>
+        <SlideImage text={textRPG} title='Rpg Fantasy' image={rpgFantasy} imageTwo={rpgGif}/>
       </SwiperSlide>
-      <SwiperSlide><SlideImage text='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
-      <SwiperSlide><SlideImage text='Trybewarts' image={trybewarts} /></SwiperSlide>
-      <SwiperSlide><SlideImage text='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
-      <SwiperSlide><SlideImage text='To Do List' image={toDo} /></SwiperSlide>
+      <SwiperSlide><SlideImage text={textPaletaDeCores} title='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
+      <SwiperSlide><SlideImage text={textTrybewarts} title='Trybewarts' image={trybewarts} /></SwiperSlide>
+      <SwiperSlide><SlideImage text={textGuessColor} title='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
+      <SwiperSlide><SlideImage text={textToDo} title='To Do List' image={toDo} /></SwiperSlide>
       ...
     </Swiper>
     </div>
