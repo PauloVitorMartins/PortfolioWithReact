@@ -9,30 +9,29 @@ export default function SlideImage (props) {
     const imageTwo = props.imageTwo;
     const [imagesExibit, setImageExibit] = useState(image);
     const [mouseIsOVer, setMouseIsOver] = useState(false);
+    const [wasMouseHere, setWasMouseHere] = useState(0);
     const funcSet = () => {
-      if ( imageTwo === undefined ) {
+      if ( wasMouseHere === 0 ) {
         setMouseIsOver(true);
-        return 0;
-      }
-      if ( imagesExibit === image ) {
-        setMouseIsOver(true);
+        setWasMouseHere(1);
+        if (imageTwo === undefined) {
+          return 0;
+        } else {
+          setImageExibit(imageTwo);
+        }
         setImageExibit(imageTwo);
       }
-    }
-    const funcSetOut = () => {
-      if ( imageTwo === undefined ) {
-        setMouseIsOver(false);
-        return 0;
-      }
-      if ( imagesExibit === imageTwo ) {
-        setMouseIsOver(false);
+      if ( wasMouseHere === 1 ) {
         setImageExibit(image);
+        setMouseIsOver(false);
+        setWasMouseHere(0);
       }
     }
+    
       return (
         <>
         <Textinformation text={text} isOver={mouseIsOVer} />
-        <a ><img onMouseOver={funcSet} onMouseLeave={funcSetOut} className='imagesSites' src={imagesExibit}/></a>
+        <a ><img onMouseOver={funcSet} className='imagesSites' src={imagesExibit}/></a>
         <p className='title-slide' >{title}</p>
         </>
       )
