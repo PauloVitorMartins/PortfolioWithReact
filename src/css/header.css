@@ -9,7 +9,6 @@
 
 .navBar-link {
   color: white;
-  margin-left: 1.4%;
   text-decoration: none;
   transition: 200ms;
 }
@@ -33,5 +32,10 @@
 
 .buttons-nav {
   width: 22%;
-  margin-left: 72%;
+  margin-left: 69%;
+}
+
+.navBar-link-a {
+  margin-left: 2%;
+  margin-right: 1.4%;
 }
