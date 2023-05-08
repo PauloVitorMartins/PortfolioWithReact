@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portifolioPageReact/static/css/main.d6b856e9.css",
+    "main.js": "/portifolioPageReact/static/js/main.1007f7be.js",
+    "static/js/787.06491b7a.chunk.js": "/portifolioPageReact/static/js/787.06491b7a.chunk.js",
+    "static/media/netflixClone.gif": "/portifolioPageReact/static/media/netflixClone.adc5b83c5c2572b0858b.gif",
+    "static/media/rpgFantasy.gif": "/portifolioPageReact/static/media/rpgFantasy.44537ec034dc01f04f13.gif",
+    "static/media/netflix.png": "/portifolioPageReact/static/media/netflix.524e0b5fc26c4d6677b1.png",
+    "static/media/site.png": "/portifolioPageReact/static/media/site.07d6f7f90a4ac47f8374.png",
+    "static/media/Trybewarts.png": "/portifolioPageReact/static/media/Trybewarts.d74e41975adef51f712e.png",
+    "static/media/Cherry Monospace-Light.ttf": "/portifolioPageReact/static/media/Cherry Monospace-Light.eaf2443d0a0fb67c521d.ttf",
+    "static/media/toDo.png": "/portifolioPageReact/static/media/toDo.0c474f149829895039a8.png",
+    "static/media/guessTheColor.png": "/portifolioPageReact/static/media/guessTheColor.f5313d7c44d72eb22ec0.png",
+    "static/media/paletaDeCores.png": "/portifolioPageReact/static/media/paletaDeCores.113c7abb2b959040d6a6.png",
+    "static/media/ostrich-regular.ttf": "/portifolioPageReact/static/media/ostrich-regular.e67effb0bd95eaafc0ac.ttf",
+    "index.html": "/portifolioPageReact/index.html",
+    "main.d6b856e9.css.map": "/portifolioPageReact/static/css/main.d6b856e9.css.map",
+    "main.1007f7be.js.map": "/portifolioPageReact/static/js/main.1007f7be.js.map",
+    "787.06491b7a.chunk.js.map": "/portifolioPageReact/static/js/787.06491b7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b856e9.css",
+    "static/js/main.1007f7be.js"
+  ]
+}
