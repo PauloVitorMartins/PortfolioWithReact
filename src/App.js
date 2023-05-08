@@ -5,12 +5,10 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path='/projetos' element={<Projetos />} />
         <Route path='/' element={<Home />} />
       </Routes>
-    </BrowserRouter>
   );
 }
 
