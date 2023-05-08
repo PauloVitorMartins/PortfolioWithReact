@@ -1,7 +1,7 @@
-import Header from './Header';
+import Header from '../components/Header';
 import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import SlideImage from './slideImage';
+import SlideImage from '../components/slideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/projetos.css';
 //swiper
@@ -20,7 +20,7 @@ import guessTheColor from '../images/guessTheColor.png';
 import paletaDeCores from '../images/paletaDeCores.png';
 import toDo from '../images/toDo.png';
 
-export default function Home () {
+export default function Projetos () {
   return (
     <div className='everything'>
       <Header />

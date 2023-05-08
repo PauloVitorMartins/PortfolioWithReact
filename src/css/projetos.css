@@ -17,24 +17,9 @@ body {
   flex-direction: column;
 }
 
-.focus-title {
-  text-align: center;
-  color: white;
-  font-size: 147px;
-  font-family: fa;
-}
-
 .title-slide {
   text-align: center;
   color: white;
-}
-
-.second-focus-title {
-    text-align: center;
-    color: white;
-    margin-top: -6%;
-    font-size: 50px;
-    font-family: cherry; 
 }
 
 .imagesSites {

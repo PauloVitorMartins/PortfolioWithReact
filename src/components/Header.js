@@ -10,8 +10,8 @@ export default function Home () {
   return (
     <div className='everything-h'>
       <a className='pv-icon'><img src={ pvIcon }/></a>
-      <a className='navBar-link' href='/'>Home</a>
-      <a className='navBar-link' href='/projetos'>Projetos</a>
+      <a className='navBar-link' href='/'>HOME</a>
+      <a className='navBar-link' href='/projetos'>PROJETOS</a>
       <div className='buttons-nav'>
         <a target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='navBar-button'><img className='navImage' src={ linkedinIcon }/></a>
         <a target='_blank' href='https://github.com/PauloVitorMartins' className='navBar-button'><img className='navImage' src={ gitHubIcon }/></a>

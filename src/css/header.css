@@ -7,6 +7,17 @@
   align-items: center;
 }
 
+.navBar-link {
+  color: white;
+  margin-left: 1.4%;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.navBar-link:hover {
+  color: aquamarine;
+}
+
 .navBar-button {
   margin-right: 25px;
 }
@@ -16,7 +27,7 @@
 }
 
 .pv-icon {
-  margin-left: 2%;
+  margin-left: 1%;
   position: initial;
 }
 

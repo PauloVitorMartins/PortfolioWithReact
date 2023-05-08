@@ -1,0 +1,41 @@
+.focus-title {
+  text-align: center;
+  color: white;
+  font-size: 147px;
+  font-family: fa;
+}
+
+.second-focus-title {
+  text-align: center;
+  color: white;
+  margin-top: -6%;
+  font-size: 50px;
+  font-family: cherry; 
+}
+
+.little-text {
+  color: white;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.button-projetos-div {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.button-projetos {
+  margin-bottom: -50%;
+  border: 4px solid rgba(29, 128, 128, 0.911);
+  text-decoration: none;
+  color: rgba(29, 128, 128, 0.911);
+  padding: 3.5% 2% 3.5% 2%;
+  transition: 100ms;
+  border-radius: 100%;
+}
+
+.button-projetos:hover {
+    background-color: rgba(29, 128, 128, 0.911);
+    border: 4px solid white;
+    color: white;
+}
