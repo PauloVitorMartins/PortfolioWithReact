@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .everything-h {
+      background-color: transparent;
+    }
+
+    .focus-title {
+        text-align: center;
+        color: white;
+        font-size: 90px;
+        font-family: fa;
+      }
+
+      .second-focus-title {
+        margin-top: -20%;
+        font-size: 30px;
+      }
+
+      .little-text {
+        color: white;
+        margin-top: 10%;
+        margin-left: 10%;
+      }
+
+      .button-projetos {
+        padding: 22% 14% 22% 14%;
+        transition: 100ms;
+      }
+
+      .button-projetos-div {
+        margin-top: 50%;
+        margin-left: 30%;
+    }
+
+    .pv-icon {
+      display: none;
+    }
+
+    .buttons-nav {
+        width: 80%;
+        margin-left: 2%;
+      }
+  }

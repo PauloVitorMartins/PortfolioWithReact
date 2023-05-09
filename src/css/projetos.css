@@ -1,15 +1,15 @@
 @font-face {
-    font-family: fa;
-    src: url('../fonts/ostrich-regular.ttf');
-}
-
-@font-face {
   font-family: cherry;
   src: url('../fonts/Cherry\ Monospace-Light.ttf');
 }
 
+@font-face {
+  font-family: fa;
+  src: url('../fonts/ostrich-regular.ttf');
+}
+
 body {
-  background-color: #181a1e;
+  background-image: url('../images/backgroundNew.png');
 }
 
 .main-content {
