@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/PortfolioWithReact/static/css/main.5874d2a6.css",
-    "main.js": "/PortfolioWithReact/static/js/main.f4338251.js",
+    "main.css": "/PortfolioWithReact/static/css/main.f84ef657.css",
+    "main.js": "/PortfolioWithReact/static/js/main.d89e6091.js",
     "static/js/787.06491b7a.chunk.js": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js",
     "static/media/netflixClone.gif": "/PortfolioWithReact/static/media/netflixClone.adc5b83c5c2572b0858b.gif",
     "static/media/rpgFantasy.gif": "/PortfolioWithReact/static/media/rpgFantasy.44537ec034dc01f04f13.gif",
     "static/media/netflix.png": "/PortfolioWithReact/static/media/netflix.524e0b5fc26c4d6677b1.png",
     "static/media/backgroundNew.png": "/PortfolioWithReact/static/media/backgroundNew.f2613611de700e3ef37b.png",
     "static/media/site.png": "/PortfolioWithReact/static/media/site.07d6f7f90a4ac47f8374.png",
+    "static/media/sideBarIcon.png": "/PortfolioWithReact/static/media/sideBarIcon.04c2c3ba3854a52f6cf5.png",
     "static/media/Trybewarts.png": "/PortfolioWithReact/static/media/Trybewarts.d74e41975adef51f712e.png",
     "static/media/Cherry Monospace-Light.ttf": "/PortfolioWithReact/static/media/Cherry Monospace-Light.eaf2443d0a0fb67c521d.ttf",
     "static/media/toDo.png": "/PortfolioWithReact/static/media/toDo.0c474f149829895039a8.png",
@@ -15,12 +16,12 @@
     "static/media/paletaDeCores.png": "/PortfolioWithReact/static/media/paletaDeCores.113c7abb2b959040d6a6.png",
     "static/media/ostrich-regular.ttf": "/PortfolioWithReact/static/media/ostrich-regular.e67effb0bd95eaafc0ac.ttf",
     "index.html": "/PortfolioWithReact/index.html",
-    "main.5874d2a6.css.map": "/PortfolioWithReact/static/css/main.5874d2a6.css.map",
-    "main.f4338251.js.map": "/PortfolioWithReact/static/js/main.f4338251.js.map",
+    "main.f84ef657.css.map": "/PortfolioWithReact/static/css/main.f84ef657.css.map",
+    "main.d89e6091.js.map": "/PortfolioWithReact/static/js/main.d89e6091.js.map",
     "787.06491b7a.chunk.js.map": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5874d2a6.css",
-    "static/js/main.f4338251.js"
+    "static/css/main.f84ef657.css",
+    "static/js/main.d89e6091.js"
   ]
 }
