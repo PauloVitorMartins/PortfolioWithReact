@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWithReact/static/css/main.f2f39deb.css",
-    "main.js": "/PortfolioWithReact/static/js/main.8ad86818.js",
+    "main.css": "/PortfolioWithReact/static/css/main.bafb0e1a.css",
+    "main.js": "/PortfolioWithReact/static/js/main.f9cec422.js",
     "static/js/787.06491b7a.chunk.js": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js",
     "static/media/netflixClone.gif": "/PortfolioWithReact/static/media/netflixClone.adc5b83c5c2572b0858b.gif",
     "static/media/rpgFantasy.gif": "/PortfolioWithReact/static/media/rpgFantasy.44537ec034dc01f04f13.gif",
@@ -16,12 +16,12 @@
     "static/media/paletaDeCores.png": "/PortfolioWithReact/static/media/paletaDeCores.113c7abb2b959040d6a6.png",
     "static/media/ostrich-regular.ttf": "/PortfolioWithReact/static/media/ostrich-regular.e67effb0bd95eaafc0ac.ttf",
     "index.html": "/PortfolioWithReact/index.html",
-    "main.f2f39deb.css.map": "/PortfolioWithReact/static/css/main.f2f39deb.css.map",
-    "main.8ad86818.js.map": "/PortfolioWithReact/static/js/main.8ad86818.js.map",
+    "main.bafb0e1a.css.map": "/PortfolioWithReact/static/css/main.bafb0e1a.css.map",
+    "main.f9cec422.js.map": "/PortfolioWithReact/static/js/main.f9cec422.js.map",
     "787.06491b7a.chunk.js.map": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2f39deb.css",
-    "static/js/main.8ad86818.js"
+    "static/css/main.bafb0e1a.css",
+    "static/js/main.f9cec422.js"
   ]
 }
