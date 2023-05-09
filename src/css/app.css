@@ -32,6 +32,11 @@
         margin-left: 30%;
     }
 
+    .textInformation-balloon-show {
+      margin-top: 8%;
+      font-size: 11px;
+    }
+
     .pv-icon {
       display: none;
     }
