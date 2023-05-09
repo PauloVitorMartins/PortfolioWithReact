@@ -59,8 +59,12 @@
 }
 
 .sideBar-button {
-  margin-top: 40%;
-  width: 78px;
+  margin-top: 10%;
+  width: 40px;
+}
+
+.sideImage {
+  width: 40px;
 }
 
 .sideBarIcon-hide {
@@ -73,6 +77,6 @@
 }
 
 .sideBarIcon {
-  width: 78px;
+  width: 40px;
   cursor: pointer;
 }
