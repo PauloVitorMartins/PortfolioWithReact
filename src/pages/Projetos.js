@@ -25,21 +25,21 @@ import toDo from '../images/toDo.png';
 export default function Projetos () {
   let isMobile = useRef(false);
   const [mobile, setMobile] = useState(false);
-  useEffect(() => {
-    const resize = () => {
-      if (window.innerWidth > 600) {
-        if(isMobile.current) {
-          isMobile.current = false;
-          setMobile(false);
-        }
-      } else {
-        if(!isMobile.current) {
-          isMobile.current = true;
-          setMobile(true);
-        }
+  const resize = () => {
+    if (window.innerWidth > 600) {
+      if(isMobile.current) {
+        isMobile.current = false;
+        setMobile(false);
+      }
+    } else {
+      if(!isMobile.current) {
+        isMobile.current = true;
+        setMobile(true);
       }
     }
-
+  }
+  useEffect(() => {
+    resize();
     window.addEventListener('resize', resize);
     return () => window.removeEventListener('resize', resize);
   }, []);
