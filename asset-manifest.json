@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioWithReact/static/css/main.ff827a60.css",
+    "main.css": "/PortfolioWithReact/static/css/main.09dabb69.css",
     "main.js": "/PortfolioWithReact/static/js/main.243a6465.js",
     "static/js/787.06491b7a.chunk.js": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js",
     "static/media/netflixClone.gif": "/PortfolioWithReact/static/media/netflixClone.adc5b83c5c2572b0858b.gif",
@@ -20,12 +20,12 @@
     "static/media/paletaDeCores.png": "/PortfolioWithReact/static/media/paletaDeCores.113c7abb2b959040d6a6.png",
     "static/media/ostrich-regular.ttf": "/PortfolioWithReact/static/media/ostrich-regular.e67effb0bd95eaafc0ac.ttf",
     "index.html": "/PortfolioWithReact/index.html",
-    "main.ff827a60.css.map": "/PortfolioWithReact/static/css/main.ff827a60.css.map",
+    "main.09dabb69.css.map": "/PortfolioWithReact/static/css/main.09dabb69.css.map",
     "main.243a6465.js.map": "/PortfolioWithReact/static/js/main.243a6465.js.map",
     "787.06491b7a.chunk.js.map": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff827a60.css",
+    "static/css/main.09dabb69.css",
     "static/js/main.243a6465.js"
   ]
 }
