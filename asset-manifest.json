@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/PortfolioWithReact/static/css/main.af4239ce.css",
+    "main.css": "/PortfolioWithReact/static/css/main.afce9bc5.css",
     "main.js": "/PortfolioWithReact/static/js/main.cee0e9c1.js",
     "static/js/787.06491b7a.chunk.js": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js",
     "static/media/netflixClone.gif": "/PortfolioWithReact/static/media/netflixClone.adc5b83c5c2572b0858b.gif",
     "static/media/rpgFantasy.gif": "/PortfolioWithReact/static/media/rpgFantasy.44537ec034dc01f04f13.gif",
     "static/media/netflix.png": "/PortfolioWithReact/static/media/netflix.524e0b5fc26c4d6677b1.png",
-    "static/media/backgroundNew.png": "/PortfolioWithReact/static/media/backgroundNew.f2613611de700e3ef37b.png",
+    "static/media/backgroundNew.png": "/PortfolioWithReact/static/media/backgroundNew.6ab66e0f36f29dadeff5.png",
     "static/media/site.png": "/PortfolioWithReact/static/media/site.07d6f7f90a4ac47f8374.png",
     "static/media/StarWars.png": "/PortfolioWithReact/static/media/StarWars.8236031c5759563839c5.png",
     "static/media/TrybeFut.png": "/PortfolioWithReact/static/media/TrybeFut.5c2a619cc9aa1123e43c.png",
@@ -20,12 +20,12 @@
     "static/media/paletaDeCores.png": "/PortfolioWithReact/static/media/paletaDeCores.113c7abb2b959040d6a6.png",
     "static/media/ostrich-regular.ttf": "/PortfolioWithReact/static/media/ostrich-regular.e67effb0bd95eaafc0ac.ttf",
     "index.html": "/PortfolioWithReact/index.html",
-    "main.af4239ce.css.map": "/PortfolioWithReact/static/css/main.af4239ce.css.map",
+    "main.afce9bc5.css.map": "/PortfolioWithReact/static/css/main.afce9bc5.css.map",
     "main.cee0e9c1.js.map": "/PortfolioWithReact/static/js/main.cee0e9c1.js.map",
     "787.06491b7a.chunk.js.map": "/PortfolioWithReact/static/js/787.06491b7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af4239ce.css",
+    "static/css/main.afce9bc5.css",
     "static/js/main.cee0e9c1.js"
   ]
 }
