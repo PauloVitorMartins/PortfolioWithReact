@@ -32,9 +32,9 @@ export default function SlideImage (props) {
       return (
         <>
         <Textinformation text={text} isOver={mouseIsOVer} />
-        <p className='title-slide'>{type}</p>
-        <p><img alt='slideOfAnProject' onClick={funcSet} onMouseOver={funcSet} className='imagesSites' src={imagesExibit}/></p>
         <p className='title-slide' >{title}</p>
+        <p><img alt='slideOfAnProject' onClick={funcSet} onMouseOver={funcSet} className='imagesSites' src={imagesExibit}/></p>
+        <p className='title-slide'>{type}</p>
         </>
       )
   }
