@@ -26,6 +26,7 @@ export default function Home () {
       if(isMobile.current) {
         isMobile.current = false;
         setMobile(false);
+        console.log(mobile);
       }
     } else {
       if(!isMobile.current) {
@@ -39,18 +40,18 @@ export default function Home () {
 
     window.addEventListener('resize', resize);
     return () => window.removeEventListener('resize', resize);
-  }, []);
+  });
   if (!isMobile.current) {
     return (
       <div className='everything-h'>
-        <a className='pv-icon'><img src={ pvIcon }/></a>
-        <a className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></a>
-        <a className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></a>
+        <p className='pv-icon'><img alt='site-icon' src={ pvIcon }/></p>
+        <p className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></p>
+        <p className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></p>
         <div className='buttons-nav'>
-          <a target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='navBar-button'><img className='navImage' src={ linkedinIcon }/></a>
-          <a target='_blank' href='https://github.com/PauloVitorMartins' className='navBar-button'><img className='navImage' src={ gitHubIcon }/></a>
-          <a target='_blank' href='maito:pm885144@gmail.com' className='navBar-button'><img className='navImage' src={ emailIcon }/></a>
-          <a target='_blank' href='https://wa.me/5531983114110' className='navBar-button'><img className='navImage' src={ zapIcon }/></a>
+          <a rel="noreferrer" target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='navBar-button'><img alt='button to linkedin' className='navImage' src={ linkedinIcon }/></a>
+          <a rel="noreferrer" target='_blank' href='https://github.com/PauloVitorMartins' className='navBar-button'><img alt='button to gitHub' className='navImage' src={ gitHubIcon }/></a>
+          <a rel="noreferrer" target='_blank' href='maito:pm885144@gmail.com' className='navBar-button'><img alt='button-to-email' className='navImage' src={ emailIcon }/></a>
+          <a rel="noreferrer" target='_blank' href='https://wa.me/5531983114110' className='navBar-button'><img alt='button whatsApp chat' className='navImage' src={ zapIcon }/></a>
         </div>
       </div>
     )
@@ -58,10 +59,10 @@ export default function Home () {
   if (isMobile.current === true && buttonUse === false) {
       return (
         <div className='everything-h'>
-          <a onClick={showSideBar}><img className='sideBarIcon-hide' src={sideBarIcon}/></a>
-          <a className='pv-icon'><img src={ pvIcon }/></a>
-          <a className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></a>
-          <a className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></a>
+          <p onClick={showSideBar}><img alt='sideBarIcon' className='sideBarIcon-hide' src={sideBarIcon}/></p>
+          <p className='pv-icon'><img alt='site icon' src={ pvIcon }/></p>
+          <p className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></p>
+          <p className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></p>
         </div>
       )
     }
@@ -69,14 +70,14 @@ export default function Home () {
       return (
         <div className='everything-h'>
           <div className='sideBar'>
-          <a onClick={showSideBar}><img className='sideBarIcon' src={sideBarIcon}/></a>
-          <a target='_blank' href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='sideBar-button'><img className='sideImage' src={ linkedinIcon }/></a>
-          <a target='_blank' href='https://github.com/PauloVitorMartins' className='sideBar-button'><img className='sideImage' src={ gitHubIcon }/></a>
-          <a target='_blank' href='maito:pm885144@gmail.com' className='sideBar-button'><img className='sideImage' src={ emailIcon }/></a>
-          <a target='_blank' href='https://wa.me/5531983114110' className='sideBar-button'><img className='sideImage' src={ zapIcon }/></a>
+          <p onClick={showSideBar}><img alt='sideBarIcon' className='sideBarIcon' src={sideBarIcon}/></p>
+          <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/paulo-vitor-martins-silva-dev/' className='sideBar-button'><img alt='linkedin button' className='sideImage' src={ linkedinIcon }/></a>
+          <a target='_blank' rel="noreferrer" href='https://github.com/PauloVitorMartins' className='sideBar-button'><img alt='button to gitHub' className='sideImage' src={ gitHubIcon }/></a>
+          <a target='_blank' rel="noreferrer" href='maito:pm885144@gmail.com' className='sideBar-button'><img alt='button to email' className='sideImage' src={ emailIcon }/></a>
+          <a target='_blank' rel="noreferrer" href='https://wa.me/5531983114110' className='sideBar-button'><img alt='button to whatsApp' className='sideImage' src={ zapIcon }/></a>
           </div>
-          <a className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></a>
-          <a className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></a>
+          <p className='navBar-link-a'><Link className='navBar-link' to='/'>HOME</Link></p>
+          <p className='navBar-link-a'><Link className='navBar-link' to='/projetos'>PROJETOS</Link></p>
         </div>
       )
     }

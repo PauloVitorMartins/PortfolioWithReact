@@ -11,6 +11,7 @@ export default function Projetos () {
     if (window.innerWidth > 600) {
       if(isMobile.current) {
         isMobile.current = false;
+        console.log(mobile);
         setMobile(false);
       }
     } else {
@@ -24,7 +25,7 @@ export default function Projetos () {
     resize();
     window.addEventListener('resize', resize);
     return () => window.removeEventListener('resize', resize);
-  }, []);
+  });
 
   if (!isMobile.current) {
     return (

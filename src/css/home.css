@@ -5,6 +5,15 @@
   font-family: fa;
 }
 
+.everything {
+  height: 100vh;
+}
+
+.sobreMim {
+  height: 100vh;
+  background-image: url(../images/backgroundNew.png);
+}
+
 .second-focus-title {
   text-align: center;
   color: white;

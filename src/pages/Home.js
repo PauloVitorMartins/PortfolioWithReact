@@ -6,6 +6,7 @@ import '../css/home.css';
 
 export default function Home () {
   return (
+    <>
     <div className='everything'>
       <Header />
       <div className='main-cont-home'>
@@ -14,8 +15,12 @@ export default function Home () {
         <p className='little-text'>Bem vindo ao meu Portfólio! Meu nome é Paulo Vitor, <br/> estudante de Desenvolvimento Web pela Trybe!</p>
       </div>
       <div className='button-projetos-div'>
-        <a><Link className='button-projetos' to='/projetos'>Projetos</Link></a>
+        <p><Link className='button-projetos' to='/projetos'>Projetos</Link></p>
       </div>
     </div>
+    <div className='sobreMim'>
+
+    </div>
+    </>
   )
 }
