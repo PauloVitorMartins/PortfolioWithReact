@@ -32,7 +32,7 @@ export default function Projetos () {
         <Header />
         <div className='main-content'>
           <p className='chamada'>fique com alguns dos meus projetos!</p>
-          <p className='paragrafos'>Aqui se encontram projetos de front-end, realizados durante meus estudos na Trybe!</p>
+          <p className='paragrafos'>Aqui se encontram projetos de front-end e back-end, realizados durante meus estudos na Trybe!</p>
           <p className='paragrafos'>experimente deixar o mouse sobre a imagem para ter uma prévia!</p>
         </div>
       <div className='slides-content'>

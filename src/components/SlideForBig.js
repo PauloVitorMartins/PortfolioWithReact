@@ -4,7 +4,17 @@ import SlideImage from '../components/slideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/projetos.css';
 // importação dos textos
-import { textNetflix, textRPG, textPaletaDeCores, textTrybewarts, textGuessColor, textToDo } from '../texts';
+import {
+  textNetflix,
+  textRPG,
+  textPaletaDeCores,
+  textTrybewarts,
+  textStarWars,
+  textTrybeFut,
+  textTrybeSmith,
+  textTrybersAndDragons,
+  textGuessColor,
+  textToDo } from '../texts';
 //swiper
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -14,6 +24,10 @@ import 'swiper/css/scrollbar';
 import netflixGif from '../gifs/netflixClone.gif';
 import rpgGif from '../gifs/rpgFantasy.gif';
 // images imports
+import starWars from '../images/StarWars.png';
+import trybeFut from '../images/TrybeFut.png';
+import trybersAndDragons from '../images/TrybersAndDragons.png';
+import trybeSmith from '../images/TrybeSmith.png';
 import netflix from '../images/netflix.png';
 import rpgFantasy from '../images/site.png';
 import trybewarts from '../images/Trybewarts.png';
@@ -38,10 +52,14 @@ export default function SlideForBig () {
       <SwiperSlide>
         <SlideImage type='front-end' text={textRPG} title='Rpg Fantasy' image={rpgFantasy} imageTwo={rpgGif}/>
       </SwiperSlide>
+      <SwiperSlide><SlideImage type='full-stack' text={textStarWars} title='Star Wars' image={starWars} /></SwiperSlide>
       <SwiperSlide><SlideImage type='front-end' text={textPaletaDeCores} title='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
       <SwiperSlide><SlideImage type='front-end' text={textTrybewarts} title='Trybewarts' image={trybewarts} /></SwiperSlide>
       <SwiperSlide><SlideImage type='front-end' text={textGuessColor} title='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
       <SwiperSlide><SlideImage type='front-end' text={textToDo} title='To Do List' image={toDo} /></SwiperSlide>
+      <SwiperSlide><SlideImage type='back-end' text={textTrybeFut} title='TrybeFut' image={trybeFut} /></SwiperSlide>
+      <SwiperSlide><SlideImage type='back-end' text={textTrybersAndDragons} title='TrybersAndDragons' image={trybersAndDragons} /></SwiperSlide>
+      <SwiperSlide><SlideImage type='back-end' text={textTrybeSmith} title='TrybeSmith' image={trybeSmith} /></SwiperSlide>
       ...
     </Swiper>
   )
