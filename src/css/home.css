@@ -6,12 +6,25 @@
 }
 
 .everything {
+  scroll-snap-align: center;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.heroSec {
+  scroll-snap-align: center;
   height: 100vh;
 }
 
-.sobreMim {
+.aboutMeSec {
+  scroll-snap-align: center;
   height: 100vh;
-  background-image: url(../images/backgroundNew.png);
 }
 
 .second-focus-title {

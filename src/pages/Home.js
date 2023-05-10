@@ -6,8 +6,8 @@ import '../css/home.css';
 
 export default function Home () {
   return (
-    <>
     <div className='everything'>
+    <div className='heroSec'>
       <Header />
       <div className='main-cont-home'>
         <p className='focus-title'>Paulo Vitor</p>
@@ -18,9 +18,9 @@ export default function Home () {
         <p><Link className='button-projetos' to='/projetos'>Projetos</Link></p>
       </div>
     </div>
-    <div className='sobreMim'>
+    <div className='aboutMeSec'>
 
     </div>
-    </>
+    </div>
   )
 }

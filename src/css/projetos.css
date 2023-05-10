@@ -10,6 +10,7 @@
 
 body {
   background-image: url('../images/backgroundNew.png');
+  background-repeat: round;
 }
 
 .main-content {
