@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function SlideImage (props) {
     const title = props.title;
+    const type = props.type
     const image = props.image;
     const text = props.text;
     const imageTwo = props.imageTwo;
@@ -31,6 +32,7 @@ export default function SlideImage (props) {
       return (
         <>
         <Textinformation text={text} isOver={mouseIsOVer} />
+        <p className='title-slide'>{type}</p>
         <a ><img onClick={funcSet} onMouseOver={funcSet} className='imagesSites' src={imagesExibit}/></a>
         <p className='title-slide' >{title}</p>
         </>
