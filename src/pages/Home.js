@@ -11,7 +11,7 @@ export default function Home () {
       <div className='main-cont-home'>
         <p className='focus-title'>Paulo Vitor</p>
         <p className='second-focus-title'>Martins Silva</p>
-        <p className='little-text'>Bem vindo ao meu Portifólio! Meu nome é Paulo Vitor, <br/> estudante de Desenvolvimento Web pela Trybe!</p>
+        <p className='little-text'>Bem vindo ao meu Portfólio! Meu nome é Paulo Vitor, <br/> estudante de Desenvolvimento Web pela Trybe!</p>
       </div>
       <div className='button-projetos-div'>
         <a><Link className='button-projetos' to='/projetos'>Projetos</Link></a>
