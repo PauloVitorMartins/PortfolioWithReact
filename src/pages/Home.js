@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import { Link } from 'react-router-dom';
+import StackSec from '../components/StackSec';
 import React from 'react';
 
 import '../css/home.css';
@@ -18,8 +19,8 @@ export default function Home () {
         <p><Link className='button-projetos' to='/projetos'>Projetos</Link></p>
       </div>
     </div>
-    <div className='aboutMeSec'>
-
+    <div className='stackSec'>
+    <StackSec />
     </div>
     </div>
   )

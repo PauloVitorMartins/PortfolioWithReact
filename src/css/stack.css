@@ -1,0 +1,23 @@
+.stacks-icons-div-blocks {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stacks-icons-div-noBlock {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-itself {
+    margin-left: 2%;
+}
