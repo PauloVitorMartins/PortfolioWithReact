@@ -1,5 +1,5 @@
 const linkNetflix = 'https://github.com/PauloVitorMartins/ProjetoNetflixCloneReact';
-const linkRPG = 'https://github.com/PauloVitorMartins/RPGFANTASYhttps://github.com/PauloVitorMartins/RPGFANTASY';
+const linkRPG = 'https://github.com/PauloVitorMartins/RPGFANTASY';
 const linkPaletaDeCores = 'https://github.com/PauloVitorMartins/Paleta-de-Cores';
 const linkTrybewarts = 'https://github.com/PauloVitorMartins/TrybeWarts';
 const linkTrybeSmith = 'https://github.com/PauloVitorMartins/Projeto-TrybeSmith';
