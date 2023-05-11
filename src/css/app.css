@@ -46,3 +46,52 @@
         margin-left: 2%;
       }
   }
+
+  @media screen and (min-width: 600px) and (max-width: 1300px) {
+    .everything-h {
+      background-color: transparent;
+    }
+
+    .focus-title {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-family: fa;
+      }
+
+      .second-focus-title {
+        margin-top: -20%;
+        font-size: 30px;
+      }
+
+      .little-text {
+        color: white;
+        margin-top: 10%;
+        margin-left: 8%;
+      }
+
+      .button-projetos {
+        padding: 14% 22% 14% 22%;
+        transition: 100ms;
+      }
+
+      .button-projetos-div {
+        margin-top: 40%;
+        margin-bottom: 10%;
+        margin-left: 30%;
+    }
+
+    .textInformation-balloon-show {
+      margin-top: 8%;
+      font-size: 11px;
+    }
+
+    .pv-icon {
+      display: none;
+    }
+
+    .buttons-nav {
+        width: 20%;
+        margin-left: 20%;
+      }
+  }

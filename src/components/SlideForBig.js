@@ -3,6 +3,19 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import SlideImage from '../components/slideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/projetos.css';
+//importação dos links
+import {
+  linkNetflix,
+  linkRPG,
+  linkPaletaDeCores,
+  linkTrybewarts,
+  linkTrybeSmith,
+  linkTrybersAndDragons,
+  linkTrybeFut,
+  linkToDo,
+  linkGuessColor,
+  linkTrybeStarWars, 
+} from '../linksSlides';
 // importação dos textos
 import {
   textNetflix,
@@ -47,19 +60,19 @@ export default function SlideForBig () {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-      <SlideImage type='front-end' text={ textNetflix } title='NetflixClone' image={netflix} imageTwo={netflixGif}/>
+      <SlideImage linkSlide={linkNetflix} type='front-end' text={ textNetflix } title='NetflixClone' image={netflix} imageTwo={netflixGif}/>
       </SwiperSlide>
       <SwiperSlide>
-        <SlideImage type='front-end' text={textRPG} title='Rpg Fantasy' image={rpgFantasy} imageTwo={rpgGif}/>
+        <SlideImage linkSlide={linkRPG} type='front-end' text={textRPG} title='Rpg Fantasy' image={rpgFantasy} imageTwo={rpgGif}/>
       </SwiperSlide>
-      <SwiperSlide><SlideImage type='full-stack' text={textStarWars} title='Star Wars' image={starWars} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='front-end' text={textPaletaDeCores} title='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='front-end' text={textTrybewarts} title='Trybewarts' image={trybewarts} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='front-end' text={textGuessColor} title='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='front-end' text={textToDo} title='To Do List' image={toDo} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='back-end' text={textTrybeFut} title='TrybeFut' image={trybeFut} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='back-end' text={textTrybersAndDragons} title='TrybersAndDragons' image={trybersAndDragons} /></SwiperSlide>
-      <SwiperSlide><SlideImage type='back-end' text={textTrybeSmith} title='TrybeSmith' image={trybeSmith} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkTrybeStarWars} type='full-stack' text={textStarWars} title='Star Wars' image={starWars} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkPaletaDeCores} type='front-end' text={textPaletaDeCores} title='Paleta de Cores' image={paletaDeCores} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkTrybewarts} type='front-end' text={textTrybewarts} title='Trybewarts' image={trybewarts} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkGuessColor} type='front-end' text={textGuessColor} title='Jogo advinhe a cor RGB' image={guessTheColor} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkToDo} type='front-end' text={textToDo} title='To Do List' image={toDo} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkTrybeFut} type='back-end' text={textTrybeFut} title='TrybeFut' image={trybeFut} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkTrybersAndDragons} type='back-end' text={textTrybersAndDragons} title='TrybersAndDragons' image={trybersAndDragons} /></SwiperSlide>
+      <SwiperSlide><SlideImage linkSlide={linkTrybeSmith} type='back-end' text={textTrybeSmith} title='TrybeSmith' image={trybeSmith} /></SwiperSlide>
       ...
     </Swiper>
   )

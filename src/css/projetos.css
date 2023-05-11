@@ -53,6 +53,22 @@ body {
   font-family: fa; 
 }
 
+.link-text-information {
+  text-decoration: none;
+  transition: 100ms;
+  color: rgb(97, 155, 202);
+}
+
+.link-text-information:visited {
+  text-decoration: none;
+  color: rgb(85, 85, 182);
+}
+
+.link-text-information:hover {
+  text-decoration:underline;
+  transform: scale(1.05);
+}
+
 .textInformation-balloon-hide {
   display: none;
   background-color: white;
@@ -62,6 +78,7 @@ body {
 .textInformation-balloon-show {
   display: flex;
   position: absolute;
+  flex-direction: column;
   z-index: 0;
   color: white;
   padding: 2%;
