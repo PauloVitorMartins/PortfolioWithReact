@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+p {
+    color: white;
+}
+
 .stacks-icons-div-noBlock {
     margin-top: 4%;
     display: flex;
