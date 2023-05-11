@@ -41,6 +41,14 @@
       display: none;
     }
 
+    img {
+      width: 60%;
+    }
+
+    .icon-itself {
+      margin-left: 0%;
+  }
+
     .buttons-nav {
         width: 70%;
         margin-left: 2%;
