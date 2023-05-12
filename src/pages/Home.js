@@ -25,6 +25,7 @@ export default function Home () {
     </div>
     <div className='whereAmI'>
       <p className='focus-title-sec'>Onde estou</p>
+      <p className='textWhereAmI'>Moro em uma pequena cidade do interior de Minas Gerais.<br/> Porto Firme, cidade tranquila e de poucos habitantes, eleita cidade com internet mais rápida do Brasil. <br /> Aqui todos nós habitantes nos conhecemos e temos uma ótima convivência!</p>
       <div className='map'>
       <MapChart />
       </div>

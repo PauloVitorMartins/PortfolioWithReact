@@ -3,6 +3,25 @@
       background-color: transparent;
     }
 
+    .whereAmI {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .textWhereAmI {
+     margin-top: -20%;
+     font-size: small;
+    }
+
+    .map {
+      width: 200%;
+      margin-left: -45%;
+    }
+
+    .focus-title-sec {
+      margin-top: 0%;
+    }
+
     .focus-title {
         text-align: center;
         color: white;

@@ -35,6 +35,11 @@
   height: 100vh;
 }
 
+.textWhereAmI {
+  font-size: large;
+  margin-left: 5%;
+}
+
 .stackSec {
   scroll-snap-align: center;
   height: 100vh;
