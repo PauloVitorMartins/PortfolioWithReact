@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import SlideImage from '../components/slideImage';
+import SlideImage from './SlideImage';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import '../css/projetos.css';
 //importação dos links

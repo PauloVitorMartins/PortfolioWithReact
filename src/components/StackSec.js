@@ -12,7 +12,7 @@ import '../css/stack.css';
 export default function StackSec () {
   return (
             <>
-            <p className='focus-title'>Stacks</p>
+            <p className='focus-title-sec'>Stacks</p>
             <div className='stacks-icons-div-blocks'>
                 <div>
                   <img src={tsIcon}/>

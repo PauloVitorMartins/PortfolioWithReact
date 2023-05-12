@@ -1,5 +1,5 @@
 import '../css/projetos.css';
-import Textinformation from '../components/TextInformation';
+import Textinformation from './TextInformation';
 import { useState } from 'react';
 
 export default function SlideImage (props) {

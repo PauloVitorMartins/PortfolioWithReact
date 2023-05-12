@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import { Link } from 'react-router-dom';
 import StackSec from '../components/StackSec';
+import MapChart from '../components/Map';
 import React from 'react';
 
 import '../css/home.css';
@@ -21,6 +22,12 @@ export default function Home () {
     </div>
     <div className='stackSec'>
     <StackSec />
+    </div>
+    <div className='whereAmI'>
+      <p className='focus-title-sec'>Onde estou</p>
+      <div className='map'>
+      <MapChart />
+      </div>
     </div>
     </div>
   )
