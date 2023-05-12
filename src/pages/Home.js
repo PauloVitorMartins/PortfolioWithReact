@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import { Link } from 'react-router-dom';
 import StackSec from '../components/StackSec';
+import HobbiesSec from '../components/Hobbies';
 import MapChart from '../components/Map';
 import React from 'react';
 
@@ -22,6 +23,9 @@ export default function Home () {
     </div>
     <div className='stackSec'>
     <StackSec />
+    </div>
+    <div className='stackSec'>
+    <HobbiesSec />
     </div>
     <div className='whereAmI'>
       <p className='focus-title-sec'>Onde estou</p>
